@@ -9,7 +9,6 @@ router.get("/", function(req, res){
     res.render('index');
 });
 router.post("/", function(req, res){
-
     console.log("You clicked the submit button!!");
     console.log(req.body);
 
