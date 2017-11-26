@@ -8,5 +8,11 @@ router.get("/", function(req, res){
     console.log("Yes this route is working!!!!!");
     res.render('index');
 });
+router.post("/", function(req, res){
+
+    console.log("You clicked the submit button!!");
+    console.log(req.body);
+
+})
 
 module.exports = router;
